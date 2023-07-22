@@ -8,7 +8,7 @@ namespace LinqTest
         {
             List<int> numbers = new List<int>();
             for (int i = 0; i <= 99; i++)
-                numbers.Add(i);
+                numbers.Add(i); 
             IEnumerable<int> firstAndLastFive = numbers.Take(5).
         }
     }
